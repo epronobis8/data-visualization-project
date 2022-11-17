@@ -25,7 +25,7 @@ with open(filename) as f:
 
 print(highs)
 
-    #plot the high temperatures
+#plot the high temperatures
 plt.style.use('seaborn')
 fig, ax = plt.subplots()
 #plot the high values to red points
